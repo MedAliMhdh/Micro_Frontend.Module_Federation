@@ -1,0 +1,69 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js
+
+PATH: 
+  C:\Python39\Scripts\;C:\Python39\;C:\Oracle12_x64\product\12.1.0\client_1\bin;C:\Perl64\site\bin;C:\Perl64\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files (x86)\Microsoft Team Foundation Server 2013 Power Tools\;C:\Program Files (x86)\Microsoft Team Foundation Server 2013 Power Tools\Best Practices Analyzer\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Windows\Microsoft.NET\assembly\GAC_64\Oracle.DataAccess;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Users\MAMahdhaoui\AppData\Local\Microsoft\WindowsApps;\\ad.linedata.com\corpdfs\corp\bin;\\ad.linedata.com\corpdfs\corp\cygwin\bin;C:\Users\MAMahdhaoui\AppData\Roaming\npm;C:\Users\MAMahdhaoui\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\MAMahdhaoui\AppData\Local\Yarn\bin;C:\Program Files\Azure Data Studio\bin;C:\Users\MAMahdhaoui\.dotnet\tools
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.17.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EBUSY: resource busy or locked, copyfile 'C:\Users\MAMahdhaoui\AppData\Local\Yarn\Cache\v6\npm-diff-sequences-26.6.2-48ba99157de1923412eed41db6b6d4aa9ca7c0b1-integrity\node_modules\diff-sequences\build\index.d.ts' -> 'C:\Users\MAMahdhaoui\Desktop\Learn\ModuleFederation\Perso_Micro_UI_App\Micro.ui.Module.Federation\packages\main\node_modules\diff-sequences\build\index.d.ts'
+
+npm manifest: 
+  {
+    "name": "app-shell",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "babel-loader": "^8.2.3",
+      "cra-template": "1.1.2",
+      "css-loader": "^6.5.1",
+      "dotenv": "^10.0.0",
+      "html-webpack-plugin": "^5.5.0",
+      "mini-css-extract-plugin": "^2.4.5",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2",
+      "react-scripts": "4.0.3",
+      "webpack": "^5.64.4",
+      "webpack-cli": "^4.9.1",
+      "webpack-dev-server": "^4.6.0",
+      "webpack-server": "^0.1.2"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

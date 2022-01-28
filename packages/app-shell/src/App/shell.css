@@ -1,0 +1,19 @@
+.shell {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  width: 20%;
+  padding: 0 10px 10px 0;
+}
+
+.center {
+  width: 60%;
+  padding: 0 10px 10px 10px;
+}
+
+.right {
+  width: 20%;
+  padding: 0 0 10px 10px;
+}

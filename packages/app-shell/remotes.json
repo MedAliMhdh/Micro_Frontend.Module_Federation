@@ -1,0 +1,5 @@
+{
+  "Drawer": "Drawer@http://localhost:9001/remoteEntry.js",
+  "Main": "Main@http://localhost:9002/remoteEntry.js",
+  "RightColumn": "RightColumn@http://localhost:9003/remoteEntry.js"
+}
